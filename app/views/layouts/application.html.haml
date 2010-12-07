@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %title GuruCampinas
+
+    = stylesheet_link_tag :all
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+
+  %body
+    #header
+      %ul
+        %li= link_to "Cadastrar", new_user_registration_path
+        %li= link_to "Logar", new_user_session_path
+    .left-column
+      = yield
+    .right-column
+      = yield :sidebar

@@ -1,0 +1,12 @@
+*~
+*.cache
+*.sql
+.*
+.DS_Store
+!.gitignore
+!.gitmodules
+config/database.yml
+tmp/*
+log/*
+doc/*
+db/*.sqlite3

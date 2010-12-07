@@ -1,0 +1,16 @@
+h1. GuruCampinas
+
+h2. Instalação
+
+Antes de mais nada, certifique-se que você tem o bundler instalado.
+
+<pre>git clone git://github.com/reu/guru-campinas.git
+cd guru-campinas
+cp config/database.yml.sample config/database.yml
+bundle install
+rake db:create db:migrate
+rails server</pre>
+
+h2. Para colaborar
+
+Pull requests =]

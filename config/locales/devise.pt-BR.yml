@@ -1,0 +1,39 @@
+pt-BR:
+  errors:
+    messages:
+      not_found: "não encontrado"
+      already_confirmed: "já foi confirmado"
+      not_locked: "não está bloqueado"
+
+  devise:
+    failure:
+      unauthenticated: 'Você precisa estar logado antes de continuar.'
+      unconfirmed: 'Você precisa confirmar sua conta antes de continuar.'
+      locked: 'Sua conta está bloqueada.'
+      invalid: 'Email ou senha inválidos.'
+      invalid_token: 'Token de autenticação inválido.'
+      timeout: 'Sua sessão expirou, por favor, logue-se novamente para continuar.'
+      inactive: 'Sua conta ainda não foi ativada.'
+    sessions:
+      signed_in: 'Logado com sucesso.'
+      signed_out: 'Deslogado com sucesso.'
+    passwords:
+      send_instructions: 'Dentro de alguns minutos você irá receber um email com as instruções de como alterar sua senha.'
+      updated: 'Sua senha foi alterada com sucesso. Você está logado agora.'
+    confirmations:
+      send_instructions: 'Dentro de alguns minutos você irá receber um email com as instruções de como ativar sua conta.'
+      confirmed: 'Sua conta foi confirmada com sucesso. Você está logado agora.'
+    registrations:
+      signed_up: 'Sua conta foi criada com sucesso. Se habilitado, um email de confirmação foi enviado para você.'
+      updated: 'Sua conta foi atualizada com sucesso.'
+      destroyed: 'Adeus =[ Sua conta foi cancelada com sucesso.'
+    unlocks:
+      send_instructions: 'Dentro de alguns minutos você receberá um email com as instruções de como desboquear sua conta.'
+      unlocked: 'Sua conta foi desbloqueada com sucesso. Você está logado agora.'
+    mailer:
+      confirmation_instructions:
+        subject: 'GuruCampinas - Confirmação'
+      reset_password_instructions:
+        subject: 'GuruCampinas - Reset de senha'
+      unlock_instructions:
+        subject: 'GuruCampinas - Desbloquear conta'
